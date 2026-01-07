@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "name": "Tyrannosaurus Rex",
+    "scientificName": "Tyrannosaurus rex",
+    "era": "Cretaceous",
+    "periodMillionYearsAgo": "68-66 million years ago",
+    "diet": "carnivore",
+    "weightTons": 9.0,
+    "lengthMeters": 12.5,
+    "heightMeters": 4.0,
+    "speedKmh": 40,
+    "classification": {
+      "order": "Saurischia",
+      "suborder": "Theropoda",
+      "family": "Tyrannosauridae",
+      "genus": "Tyrannosaurus",
+      "species": "rex"
+    },
+    "characteristics": {
+      "strengths": "Powerful jaws, excellent sense of smell",
+      "weaknesses": "Short front limbs, slow turning",
+      "physicalTraits": "Large skull, muscular legs, long tail"
+    },
+    "habitat": {
+      "primaryLocation": "North America",
+      "preferredTerrain": "Open plains, semi-arid regions"
+    },
+    "description": "The most famous predator of the Cretaceous period, a top predator of its time.",
+    "imageUrl": "https://cdn.pixabay.com/photo/2020/10/19/18/21/t-rex-5668607_960_720.png"
+  },
+  {
+    "id": 2,
+    "name": "Triceratops",
+    "scientificName": "Triceratops horridus",
+    "era": "Cretaceous",
+    "periodMillionYearsAgo": "68-66 million years ago",
+    "diet": "herbivore",
+    "weightTons": 6.0,
+    "lengthMeters": 9.0,
+    "heightMeters": 3.0,
+    "speedKmh": 20,
+    "classification": {
+      "order": "Ornithischia",
+      "suborder": "Ceratopsia",
+      "family": "Ceratopsidae",
+      "genus": "Triceratops",
+      "species": "horridus"
+    },
+    "characteristics": {
+      "strengths": "Three horns, strong frill for defense",
+      "weaknesses": "Slow speed",
+      "physicalTraits": "Large frill, sturdy body, short tail"
+    },
+    "habitat": {
+      "primaryLocation": "North America",
+      "preferredTerrain": "Plains, forests"
+    },
+    "description": "A large herbivore with three distinctive facial horns, known for defense against predators.",
+    "imageUrl": "https://cdn.pixabay.com/photo/2023/02/19/21/42/triceratops-7801104_1280.png"
+  },
+  {
+    "id": 3,
+    "name": "Velociraptor",
+    "scientificName": "Velociraptor mongoliensis",
+    "era": "Cretaceous",
+    "periodMillionYearsAgo": "75-71 million years ago",
+    "diet": "carnivore",
+    "weightTons": 0.015,
+    "lengthMeters": 2.0,
+    "heightMeters": 0.5,
+    "speedKmh": 60,
+    "classification": {
+      "order": "Saurischia",
+      "suborder": "Theropoda",
+      "family": "Dromaeosauridae",
+      "genus": "Velociraptor",
+      "species": "mongoliensis"
+    },
+    "characteristics": {
+      "strengths": "Fast, agile, intelligent hunter",
+      "weaknesses": "Small size",
+      "physicalTraits": "Curved claw on each foot, long tail, feathered body"
+    },
+    "habitat": {
+      "primaryLocation": "Mongolia",
+      "preferredTerrain": "Deserts, semi-arid regions"
+    },
+    "description": "Small but deadly predator, known for hunting in packs and high intelligence.",
+    "imageUrl": "https://cdn.pixabay.com/photo/2020/11/16/18/02/dinosaur-5749837_1280.png"
+  },
+  {
+    "id": 4,
+    "name": "Stegosaurus",
+    "scientificName": "Stegosaurus ungulatus",
+    "era": "Jurassic",
+    "periodMillionYearsAgo": "155-150 million years ago",
+    "diet": "herbivore",
+    "weightTons": 5.0,
+    "lengthMeters": 9.0,
+    "heightMeters": 4.0,
+    "speedKmh": 7,
+    "classification": {
+      "order": "Ornithischia",
+      "suborder": "Stegosauria",
+      "family": "Stegosauridae",
+      "genus": "Stegosaurus",
+      "species": "ungulatus"
+    },
+    "characteristics": {
+      "strengths": "Plates for defense, spiked tail",
+      "weaknesses": "Slow and cumbersome",
+      "physicalTraits": "Double row of bony plates, tail spikes, small head"
+    },
+    "habitat": {
+      "primaryLocation": "North America",
+      "preferredTerrain": "Forests, river valleys"
+    },
+    "description": "Herbivore known for its distinctive back plates and tail spikes used for defense.",
+    "imageUrl": "https://cdn.pixabay.com/photo/2024/11/08/01/36/stegosaurus-9182169_1280.png"
+  },
+  {
+    "id": 5,
+    "name": "Brachiosaurus",
+    "scientificName": "Brachiosaurus altithorax",
+    "era": "Jurassic",
+    "periodMillionYearsAgo": "154-150 million years ago",
+    "diet": "herbivore",
+    "weightTons": 56.0,
+    "lengthMeters": 26.0,
+    "heightMeters": 13.0,
+    "speedKmh": 20,
+    "classification": {
+      "order": "Saurischia",
+      "suborder": "Sauropoda",
+      "family": "Brachiosauridae",
+      "genus": "Brachiosaurus",
+      "species": "altithorax"
+    },
+    "characteristics": {
+      "strengths": "Tall neck to reach high vegetation",
+      "weaknesses": "Massive size, slow",
+      "physicalTraits": "Long neck, large body, front legs longer than hind legs"
+    },
+    "habitat": {
+      "primaryLocation": "North America",
+      "preferredTerrain": "Floodplains, forests"
+    },
+    "description": "Giant herbivore with a long neck, capable of feeding on treetops unreachable by other dinosaurs.",
+    "imageUrl": "https://cdn.pixabay.com/photo/2020/10/21/23/24/dinosaur-5674510_1280.png"
+  },
+  {
+    "id": 6,
+    "name": "Allosaurus",
+    "scientificName": "Allosaurus fragilis",
+    "era": "Jurassic",
+    "periodMillionYearsAgo": "155-145 million years ago",
+    "diet": "carnivore",
+    "weightTons": 2.3,
+    "lengthMeters": 12.0,
+    "heightMeters": 4.5,
+    "speedKmh": 30,
+    "classification": {
+      "order": "Saurischia",
+      "suborder": "Theropoda",
+      "family": "Allosauridae",
+      "genus": "Allosaurus",
+      "species": "fragilis"
+    },
+    "characteristics": {
+      "strengths": "Strong jaws and sharp teeth",
+      "weaknesses": "Relatively short arms",
+      "physicalTraits": "Large skull, muscular legs, long tail"
+    },
+    "habitat": {
+      "primaryLocation": "North America",
+      "preferredTerrain": "Forests, river valleys"
+    },
+    "description": "Predatory dinosaur known for hunting large herbivores during the Jurassic period.",
+    "imageUrl": "https://cdn.pixabay.com/photo/2018/02/01/08/06/dinosaur-3122799_1280.png"
+  },
+  {
+    "id": 7,
+    "name": "Spinosaurus",
+    "scientificName": "Spinosaurus aegyptiacus",
+    "era": "Cretaceous",
+    "periodMillionYearsAgo": "112-93 million years ago",
+    "diet": "carnivore",
+    "weightTons": 7.0,
+    "lengthMeters": 15.0,
+    "heightMeters": 6.0,
+    "speedKmh": 30,
+    "classification": {
+      "order": "Saurischia",
+      "suborder": "Theropoda",
+      "family": "Spinosauridae",
+      "genus": "Spinosaurus",
+      "species": "aegyptiacus"
+    },
+    "characteristics": {
+      "strengths": "Semi-aquatic, strong jaws",
+      "weaknesses": "Bulky, not very fast on land",
+      "physicalTraits": "Long snout, sail-like back, powerful forelimbs"
+    },
+    "habitat": {
+      "primaryLocation": "North Africa",
+      "preferredTerrain": "Rivers, coastal regions"
+    },
+    "description": "Large predator adapted to hunting both on land and in water, with a distinctive sail on its back.",
+    "imageUrl": "https://cdn.pixabay.com/photo/2025/05/09/23/21/dinosaur-9590301_1280.png"
+  },
+  {
+    "id": 8,
+    "name": "Ankylosaurus",
+    "scientificName": "Ankylosaurus magniventris",
+    "era": "Cretaceous",
+    "periodMillionYearsAgo": "68-66 million years ago",
+    "diet": "herbivore",
+    "weightTons": 6.0,
+    "lengthMeters": 10.0,
+    "heightMeters": 2.0,
+    "speedKmh": 15,
+    "classification": {
+      "order": "Ornithischia",
+      "suborder": "Thyreophora",
+      "family": "Ankylosauridae",
+      "genus": "Ankylosaurus",
+      "species": "magniventris"
+    },
+    "characteristics": {
+      "strengths": "Armored body, clubbed tail for defense",
+      "weaknesses": "Slow",
+      "physicalTraits": "Heavy armor plates, short legs, clubbed tail"
+    },
+    "habitat": {
+      "primaryLocation": "North America",
+      "preferredTerrain": "Plains, forests"
+    },
+    "description": "Heavily armored herbivore with a club at the end of its tail used to defend against predators.",
+    "imageUrl": "https://cdn.pixabay.com/photo/2024/11/24/20/29/dinosaur-9221768_1280.png"
+  },
+  {
+  "id": 9,
+  "name": "Giganotosaurus",
+  "scientificName": "Giganotosaurus carolinii",
+  "era": "Cretaceous",
+  "periodMillionYearsAgo": "99-97 million years ago",
+  "diet": "carnivore",
+  "weightTons": 8.0,
+  "lengthMeters": 13.0,
+  "heightMeters": 4.0,
+  "speedKmh": 50,
+  "classification": {
+    "order": "Saurischia",
+    "suborder": "Theropoda",
+    "family": "Carcharodontosauridae",
+    "genus": "Giganotosaurus",
+    "species": "carolinii"
+    },
+    "characteristics": {
+      "strengths": "Powerful jaws, large size, hunting in groups",
+      "weaknesses": "Relatively slow turning speed",
+      "physicalTraits": "Large skull, sharp serrated teeth, muscular legs"
+    },
+    "habitat": {
+      "primaryLocation": "South America",
+      "preferredTerrain": "Open plains, forests"
+    },
+    "description": "One of the largest carnivorous dinosaurs, a powerful predator that hunted large herbivores.",
+    "imageUrl": "https://cdn.pixabay.com/photo/2023/02/19/21/31/cretaceous-7801062_1280.png"
+  },
+  {
+    "id": 10,
+    "name": "Pteranodon",
+    "scientificName": "Pteranodon longiceps",
+    "era": "Cretaceous",
+    "periodMillionYearsAgo": "86-84 million years ago",
+    "diet": "carnivore",
+    "weightTons": 0.02,
+    "lengthMeters": 6.0,
+    "heightMeters": 1.8,
+    "speedKmh": 60,
+    "classification": {
+      "order": "Pterosauria",
+      "suborder": "Pterodactyloidea",
+      "family": "Pteranodontidae",
+      "genus": "Pteranodon",
+      "species": "longiceps"
+    },
+    "characteristics": {
+      "strengths": "Flight, long beak for fishing",
+      "weaknesses": "Cannot walk well on land",
+      "physicalTraits": "Large wingspan, elongated head crest, lightweight body"
+    },
+    "habitat": {
+      "primaryLocation": "North America",
+      "preferredTerrain": "Coastal regions, cliffs"
+    },
+    "description": "Flying reptile with a large wingspan, primarily feeding on fish over coastal waters.",
+    "imageUrl": "https://cdn.pixabay.com/photo/2023/09/07/23/11/pterodactyl-8240037_1280.png"
+  }
+]
