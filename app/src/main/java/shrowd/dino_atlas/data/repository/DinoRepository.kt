@@ -1,8 +1,11 @@
 package shrowd.dino_atlas.data.repository
 
 import android.content.Context
+import android.util.Log
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import shrowd.dino_atlas.data.model.Dino
@@ -14,35 +17,34 @@ class DinoRepository(private val context: Context) {
     private val gson = Gson()
 
     private val cacheFile: File
-        get() = File(context.cacheDir, "cache.json")
+        get() = File(context.cacheDir, "dinosaurs_cache.json")
 
-    companion object {
-        private const val DINO_URL =
-            "https://raw.githubusercontent.com/shrowd/dinoapp/refs/heads/main/dinosaurs.json"
-    }
+    suspend fun loadDinos(): List<Dino> = withContext(Dispatchers.IO) {
+        return@withContext try {
 
-    private fun parse(json: String): List<Dino> {
-        val type = object : TypeToken<List<Dino>>() {}.type
-        return gson.fromJson(json, type)
-    }
-
-    fun loadDinos(): List<Dino> {
-        return try {
             val request = Request.Builder()
-                .url(DINO_URL)
+                .url("https://raw.githubusercontent.com/shrowd/dino_atlas/refs/heads/master/dinosaurs.json")
                 .build()
 
             val response = client.newCall(request).execute()
-            val json = response.body?.string() ?: throw Exception("Empty")
+            val json = response.body.string()
+
+            if (json.isEmpty()) {
+                throw Exception("Empty response from server")
+            }
 
             cacheFile.writeText(json)
-            parse(json)
+            parseDinos(json)
         } catch (e: Exception) {
             if (cacheFile.exists()) {
-                parse(cacheFile.readText())
+                parseDinos(cacheFile.readText())
             } else {
                 emptyList()
             }
         }
+    }
+    private fun parseDinos(json: String): List<Dino> {
+        val type = object : TypeToken<List<Dino>>() {}.type
+        return gson.fromJson(json, type)
     }
 }
